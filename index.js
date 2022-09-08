@@ -40,7 +40,7 @@ function cardCreator(arg1, arg2, arg3) {
   }
   
   
-  fetch("https://itunes.apple.com/us/rss/topalbums/limit=20/json")
+  fetch("https://itunes.apple.com/us/rss/topalbums/limit=5/json")
   .then(response => response.json())
   .then(data => {
   
