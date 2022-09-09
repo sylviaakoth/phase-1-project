@@ -88,7 +88,7 @@ function cardCreator(arg1, arg2, arg3) {
     if (event.target.id === "delete") {
       event.target.parentNode.remove()
     }
-   //alert("Song was removed from playlist!")-ask where to put it
+  
 
   })
 
