@@ -28,6 +28,19 @@
 
     
          <!--submit form-->
+
+<form id="frm1" action="/action_page.php">
+  song name: <input type="text" name="artist"><br>
+  artist name: <input type="text" name="song"><br><br>
+  <input type="button" onclick="myFunction()" value="Submit">
+</form>
+<p>Enter song and artist you'd like to see, then click "Submit" to submit the form:</p>
+
+<script>
+function myFunction() {
+  document.getElementById("frm1").submit();
+}
+</script>
   </body>
 </html>
 
