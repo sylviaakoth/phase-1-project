@@ -1,7 +1,3 @@
-function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
- }
 
 function cardCreator(arg1, arg2, arg3) {
     // creating a div and giving it a class name
@@ -82,7 +78,7 @@ function cardCreator(arg1, arg2, arg3) {
       motherList.appendChild(newList)
   
     }
-   // alert("Song was added to playlist!") not working well
+    //alert("Song was added to playlist!")-not working well
     
   }) 
 
@@ -99,8 +95,14 @@ function cardCreator(arg1, arg2, arg3) {
 
 
  // this event listener is to submit a song you would like to see in the list
- function myFunction() {
-    document.getElementById("frm1").submit();
-  }
- 
+ const form = document.getElementById("form")
+  
+function resultGetter() {
+    const result = document.getElementById("input").value
+    const resultPage = document.getElementById("log")
+    const currentResult = document.createElement("li")
+    currentResult.textContent = result
+    resultPage.appendChild(currentResult)
+}  
+
  
