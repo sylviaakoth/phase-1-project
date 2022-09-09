@@ -40,7 +40,7 @@ function cardCreator(arg1, arg2, arg3) {
   }
   
   
-  fetch("https://itunes.apple.com/us/rss/topalbums/limit=5/json")
+  fetch("https://itunes.apple.com/us/rss/topalbums/limit=15/json")
   .then(response => response.json())
   .then(data => {
   
@@ -97,7 +97,6 @@ function cardCreator(arg1, arg2, arg3) {
   })
 
 
- // this event listener is comment on playlist
 
  // this event listener is to submit a song you would like to see in the list
  function myFunction() {
