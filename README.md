@@ -1,4 +1,4 @@
-# Weekly-Workout-Planner
+# Play My Music
 Flatiron school, phase 1 project:  a SPA designed to add songs to a custom playlist. 
 
 ## Inspiration
